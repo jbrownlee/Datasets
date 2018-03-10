@@ -1,6 +1,8 @@
 Machine Learning Datasets
 =========================
 
-This repository contains a copy of machine learning data sets used in tutorials in MachineLearningMastery.com.
+This repository contains a copy of machine learning datasets used in tutorials on MachineLearningMastery.com.
 
-The purpose is to link from the tutorials to the datasets in this repository to ensure that the data used is always available and not dependent upon unreliable third parties.
+This repository was created to ensure that the datasets used in tutorials remain available and are not dependent upon unreliable third parties.
+
+In many cases, tutorials will link directly to the raw dataset URL, therefore dataset filenames should not be changed once added to the repository.
