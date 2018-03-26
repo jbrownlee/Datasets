@@ -12,25 +12,28 @@ Datasets
 
 This section provides a summary of the datasets in this repository.
 
-## Classification Datasets
+## Binary Classification Datasets
 
 * Breast Cancer (Wisconsin)
 * Breast Cancer (Yugoslavia)
 * Bank Note Authentication
-* Glass Identification
 * Horse Colic
 * Ionosphere
-* Iris Flower Species
 * Pima Indians Diabetes
-* Wheat Seeds
 * Sonar Returns
+
+## Multiclass Classification Datasets
+
+* Glass Identification
+* Iris Flower Species
+* Wheat Seeds
+* Abalone Age (or regression)
+* Wine Quality (or regression)
 
 ## Regression Datasets
 
-* Abalone Age
 * Boston Housing
 * Longley Economic
-* Wine Quality
 
 ## Univariate Time Series Datasets
 
