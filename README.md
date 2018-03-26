@@ -42,9 +42,9 @@ This section provides a summary of the datasets in this repository.
 * Monthly Sunspots
 * Monthly Champagne Sales
 * Monthly Shampoo Sales
-* Yearly Water Usage in Baltmore
+* Yearly Water Usage in Baltimore
 
 ## Multivariate Time Series Datasets
 
-* Pollution
+* Hourly Pollution Levels in Beijing
 
