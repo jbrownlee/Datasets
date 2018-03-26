@@ -15,7 +15,7 @@ This section provides a summary of the datasets in this repository.
 ## Classification Datasets
 
 * Breast Cancer (Wisconsin)
-* Breast Cancer
+* Breast Cancer (Yugoslavia)
 * Bank Note Authentication
 * Glass Identification
 * Horse Colic
