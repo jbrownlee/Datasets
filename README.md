@@ -40,6 +40,7 @@ This section provides a summary of the datasets in this repository.
 * Monthly International Airline Passengers
 * Auto Insurance Total Claims
 * Daily Minimum Temperatures in Melbourne
+* Daily Maximum Temperatures in Melbourne
 * Daily Female Births in California
 * Monthly Armed Robberies in Boston
 * Monthly Sunspots
