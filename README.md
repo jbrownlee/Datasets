@@ -47,6 +47,7 @@ This section provides a summary of the datasets in this repository.
 * Monthly Champagne Sales
 * Monthly Shampoo Sales
 * Monthly Car Sales
+* Monthly Mean Temperatures in Nottingham Castle
 * Yearly Water Usage in Baltimore
 
 ## Multivariate Time Series Datasets
