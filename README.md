@@ -34,14 +34,14 @@ This section provides a summary of the datasets in this repository.
 
 * Boston Housing
 * Longley Economic
+* Auto Insurance Total Claims
 
 ## Univariate Time Series Datasets
 
-* Monthly International Airline Passengers
-* Auto Insurance Total Claims
 * Daily Minimum Temperatures in Melbourne
 * Daily Maximum Temperatures in Melbourne
 * Daily Female Births in California
+* Monthly International Airline Passengers
 * Monthly Armed Robberies in Boston
 * Monthly Sunspots
 * Monthly Champagne Sales
