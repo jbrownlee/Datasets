@@ -48,6 +48,7 @@ This section provides a summary of the datasets in this repository.
 * Monthly Shampoo Sales
 * Monthly Car Sales
 * Monthly Mean Temperatures in Nottingham Castle
+* Monthly Specialty Writing Paper Sales
 * Yearly Water Usage in Baltimore
 
 ## Multivariate Time Series Datasets
