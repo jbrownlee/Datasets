@@ -14,7 +14,6 @@ This section provides a summary of the datasets in this repository.
 
 ## Binary Classification Datasets
 
-* Breast Cancer (Wisconsin)
 * Breast Cancer (Yugoslavia)
 * Bank Note Authentication
 * Horse Colic
@@ -24,6 +23,7 @@ This section provides a summary of the datasets in this repository.
 
 ## Multiclass Classification Datasets
 
+* Breast Cancer (Wisconsin)
 * Glass Identification
 * Iris Flower Species
 * Wheat Seeds
