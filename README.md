@@ -34,6 +34,7 @@ This section provides a summary of the datasets in this repository.
 * Boston Housing
 * Longley Economic
 * Auto Insurance Total Claims
+* Auto Imports Prices
 * Abalone Age
 * Wine Quality
 
