@@ -32,7 +32,6 @@ This section provides a summary of the datasets in this repository.
 ## Regression Datasets
 
 * Boston Housing
-* Longley Economic
 * Auto Insurance Total Claims
 * Auto Imports Prices
 * Abalone Age
@@ -59,4 +58,4 @@ This section provides a summary of the datasets in this repository.
 * Minutely Individual Household Electric Power Consumption
 * Human Activity Recognition Using Smartphones
 * Indoor Movement Prediction
-
+* Yearly Longley Economic Employment
