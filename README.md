@@ -27,14 +27,15 @@ This section provides a summary of the datasets in this repository.
 * Glass Identification
 * Iris Flower Species
 * Wheat Seeds
-* Abalone Age (or regression)
-* Wine Quality (or regression)
+* Wine
 
 ## Regression Datasets
 
 * Boston Housing
 * Longley Economic
 * Auto Insurance Total Claims
+* Abalone Age
+* Wine Quality
 
 ## Univariate Time Series Datasets
 
