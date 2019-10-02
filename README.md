@@ -42,7 +42,8 @@ This section provides a summary of the datasets in this repository.
 * Auto Insurance Total Claims (auto-insurance.csv)
 * Auto Imports Prices (auto_imports.csv)
 * Abalone Age (abalone.csv)
-* Wine Quality (winequality-red.csv and winequality-white.csv)
+* Wine Quality Red (winequality-red.csv)
+* Wine Quality White (winequality-white.csv)
 
 ## Univariate Time Series Datasets
 
