@@ -23,6 +23,7 @@ This section provides a summary of the datasets in this repository.
 * Sonar Returns (sonar.csv)
 * Haberman's Breast Cancer Survival Data (haberman.csv)
 * German Credit (german.csv)
+* Credit Card Fraud (creditcardfraud.zip)
 
 ## Multiclass Classification Datasets
 
