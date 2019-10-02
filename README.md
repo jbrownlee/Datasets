@@ -14,30 +14,30 @@ This section provides a summary of the datasets in this repository.
 
 ## Binary Classification Datasets
 
-* Breast Cancer (Wisconsin)
-* Breast Cancer (Yugoslavia)
-* Bank Note Authentication
-* Horse Colic
-* Ionosphere
-* Pima Indians Diabetes
-* Sonar Returns
+* Breast Cancer (Wisconsin) (breast-cancer-wisconsin.csv)
+* Breast Cancer (Yugoslavia) (breast-cancer.csv)
+* Bank Note Authentication (banknote_authentication.csv)
+* Horse Colic (horse-colic.csv)
+* Ionosphere (ionosphere.csv)
+* Pima Indians Diabetes (pima-indians-diabetes.csv)
+* Sonar Returns (sonar.csv)
 * Haberman's Breast Cancer Survival Data (haberman.csv)
 * German Credit (german.csv)
 
 ## Multiclass Classification Datasets
 
-* Glass Identification
-* Iris Flower Species
-* Wheat Seeds
-* Wine
+* Glass Identification (glass.csv)
+* Iris Flower Species (iris.csv)
+* Wheat Seeds (wheat-seeds.csv)
+* Wine (wine.csv)
 
 ## Regression Datasets
 
-* Boston Housing
-* Auto Insurance Total Claims
-* Auto Imports Prices
-* Abalone Age
-* Wine Quality
+* Boston Housing (housing.csv)
+* Auto Insurance Total Claims (auto-insurance.csv)
+* Auto Imports Prices (auto_imports.csv)
+* Abalone Age (abalone.csv)
+* Wine Quality (winequality-red.csv and winequality-white.csv)
 
 ## Univariate Time Series Datasets
 
