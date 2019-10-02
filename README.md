@@ -31,6 +31,7 @@ This section provides a summary of the datasets in this repository.
 * Wheat Seeds (wheat-seeds.csv)
 * Wine (wine.csv)
 * Ecoli (ecoli.csv)
+* Thyroid Gland (new-thyroid.csv)
 
 ## Regression Datasets
 
