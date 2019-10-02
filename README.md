@@ -30,6 +30,7 @@ This section provides a summary of the datasets in this repository.
 * Iris Flower Species (iris.csv)
 * Wheat Seeds (wheat-seeds.csv)
 * Wine (wine.csv)
+* Ecoli (ecoli.csv)
 
 ## Regression Datasets
 
