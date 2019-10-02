@@ -21,6 +21,7 @@ This section provides a summary of the datasets in this repository.
 * Ionosphere
 * Pima Indians Diabetes
 * Sonar Returns
+* Haberman's Breast Cancer Survival Data (haberman.csv)
 
 ## Multiclass Classification Datasets
 
