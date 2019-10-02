@@ -22,6 +22,7 @@ This section provides a summary of the datasets in this repository.
 * Pima Indians Diabetes
 * Sonar Returns
 * Haberman's Breast Cancer Survival Data (haberman.csv)
+* German Credit (german.csv)
 
 ## Multiclass Classification Datasets
 
