@@ -47,18 +47,18 @@ This section provides a summary of the datasets in this repository.
 
 ## Univariate Time Series Datasets
 
-* Daily Minimum Temperatures in Melbourne
-* Daily Maximum Temperatures in Melbourne
-* Daily Female Births in California
-* Monthly International Airline Passengers
-* Monthly Armed Robberies in Boston
-* Monthly Sunspots
-* Monthly Champagne Sales
-* Monthly Shampoo Sales
-* Monthly Car Sales
-* Monthly Mean Temperatures in Nottingham Castle
-* Monthly Specialty Writing Paper Sales
-* Yearly Water Usage in Baltimore
+* Daily Minimum Temperatures in Melbourne (daily-min-temperatures.csv)
+* Daily Maximum Temperatures in Melbourne (daily-max-temperatures.csv)
+* Daily Female Births in California (daily-total-female-births.csv)
+* Monthly International Airline Passengers (monthly-airline-passengers.csv)
+* Monthly Armed Robberies in Boston (monthly-robberies.csv)
+* Monthly Sunspots (monthly-sunspots.csv)
+* Monthly Champagne Sales (monthly_champagne_sales.csv)
+* Monthly Shampoo Sales (monthly-shampoo-sales.csv)
+* Monthly Car Sales (monthly-car-sales.csv)
+* Monthly Mean Temperatures in Nottingham Castle (monthly-mean-temp.csv)
+* Monthly Specialty Writing Paper Sales (monthly-writing-paper-sales.csv)
+* Yearly Water Usage in Baltimore (yearly-water-usage.csv)
 
 ## Multivariate Time Series Datasets
 
