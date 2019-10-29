@@ -1,0 +1,226 @@
+                 ########################
+                 # The phoneme database #
+                 ########################
+
+
+1. Sources:
+
+   Dominique VAN CAPPEL  (33) 92 96 45 44
+   THOMSON-SINTRA,
+   525 route des Dolines, BP157,
+   F-06903 Sophia Antipolis Cedex, France
+
+   This database was in use in the European ESPRIT 5516 project: ROARS.
+   The aim of this project is the development and the implementation of
+   a real time analytical system for French and Spannish speech recognition.
+
+
+
+
+2. Past Usage:
+
+    Alinat, P.,
+    Periodic Progress Report 4,
+    ROARS Project ESPRIT II- Number 5516,
+    February 1993, Thomson report TS. ASM 93/S/EGS/NC/079
+
+    Guerin-Dugue, A. and others,
+    Deliverable R3-B4-P - Task B4: Benchmarks, Technical report,
+    Elena-NervesII "Enhanced Learning for Evolutive Neural Architecture",
+    ESPRIT-Basic Research Project  Number 6891,
+    June 1995
+
+    Verleysen, M. and Voz, J.L. and Thissen, P. and Legat, J.D.,
+    A statistical Neural Network for high-dimensional vector classification,
+    ICNN'95 - IEEE International Conference on Neural Networks,
+    November 1995, Perth, Western Australia.
+
+    Voz J.L., Verleysen M., Thissen P. and Legat J.D.,
+    Suboptimal Bayesian classification by vector quantization with small clusters
+    ESANN95-European Symposium on Artificial Neural Networks,
+    April 1995, M. Verleysen editor, D facto publications, Brussels, Belgium.
+
+    Voz J.L., Verleysen M., Thissen P. and Legat J.D.,
+    A practical view of  suboptimal Bayesian classification,
+    IWANN95-Proceedings of the International Workshop on Artificial Neural Networks,
+    June 1995, Mira, Cabestany, Prieto editors,
+    Springer-Verlag Lecture Notes in Computer Sciences, Malaga, Spain
+
+
+
+
+3. Relevant information
+
+Most of the already existing speech recognition systems are global
+systems (typically Hidden Markov Models and Time Delay Neural Networks)
+which recognises signals and do not really use the speech
+specificities.  On the contrary, analytical systems take into account
+the articulatory process leading to the different phonemes of a given
+language, the idea being to deduce  the presence of each of the
+phonetic features from the acoustic observation.
+
+The main difficulty of analitycal systems is to obtain acoustical
+parameters sufficiantly reliable. These acoustical measurements must :
+
+   - contain all the information relative to the concerned
+     phonetic feature.
+   - being speeker independant.
+   - being context independant.
+   - being more or less robust to noise.
+
+The primary acoustical observation is always voluminous
+(spectrum x N different observation moments) and classification cannot been
+processed directly.
+
+In ROARS, the initial database is provided by a cochlear spectra, which
+may be seen as the output of a filters bank having a constant
+DeltaF/F0, where the central frequencies are distributed on a
+logarithmic scale (MEL type) to simulate the frequency answer of the
+auditory nerves.  The filters outputs are taken every 2 or 8 msec
+(integration on 4 or 16 msec) depending on the type of phoneme
+observated (stationnary or transitory).
+
+The aim of the present database is to distinguish between nasal and
+oral vowels. There are thus two different classes:
+
+	Class 0 : Nasals
+	Class 1 : Orals
+
+This database contains vowels coming from 1809 isolated syllables (for
+example: pa, ta, pan,...).  Five different attributes were chosen to
+characterize each vowel: they are the amplitudes of the five first
+harmonics AHi, normalised by the total energy Ene (integrated on all the
+frequencies): AHi/Ene. Each harmonic is signed: positive when it
+corresponds to a local maximum of the spectrum and negative otherwise.
+
+
+Three observation moments have been kept for each vowel to obtain
+5427 different instances:
+
+ - the observation corresponding to the maximum total energy Ene.
+
+ - the observations taken 8 msec before and 8 msec after
+   the observation corresponding to this maximum total energy.
+
+From these 5427 initial values, 23 instances for which the amplitude
+of the 5 first harmonics was zero were removed, leading to the 5404
+instances of the present database.
+The patterns are presented in a random order.
+
+
+
+
+4. Summary Statistics:
+
+    Attribute  Min    Max     Mean    Standard
+				     deviation
+
+       1      -1.70   4.11   0.82     0.86
+       2      -1.33   4.38   1.26     0.85
+       3      -1.82   3.20   0.76     0.93
+       4      -1.58   2.83   0.40     0.80
+       5      -1.28   2.72   0.08     0.58
+
+    Class Distribution: number of instances per class
+
+      	class 0 3818 - 70.65%
+	class 1 1586 - 29.35%
+
+    Correlation matrix:
+
+    {{ 1.00,-0.10,-0.32,-0.19,-0.05},
+     {-0.10, 1.00,-0.25,-0.21,-0.07},
+     {-0.32,-0.25, 1.00, 0.02, 0.01},
+     {-0.19,-0.21, 0.02, 1.00,-0.04},
+     {-0.05,-0.07, 0.01,-0.04, 1.00}}
+
+
+    Attributes maximum precision: 15 bits.
+
+   The database resulting from the centering and reduction by attribute of the phoneme
+   database is on the ftp server in the `REAL/phoneme/phoneme_CR.dat.Z' file.
+
+
+
+
+
+5. Confusion matrix obtained with the k_NN classifier
+   (test with the Leave_One_Out method).
+   k was set to 1 to reach the minimum error rate : 8.97 +/- 1.1%)
+
+	{{0,   0 ,    1 },
+	 {0, 95.0,   5.0},
+	 {1, 18.5,  81.5}}
+
+   With k set to 1, this result is a bit optimistic because of the fact
+   that the database is composed of the same phonemes taken at 3
+   differents moments.  Setting k=20, will permit to avoid this influence
+   and will provide more realistic results:
+
+	{{0,   0 ,    1 },
+	 {0, 91.4,   8.6},
+	 {1, 27.8,  72.2}}
+
+   In this case, the total error rate is: 14.2%.
+
+
+
+
+7. Result of the Principal Component Analysis:
+
+The Principal Components Analysis is a very classical method in pattern
+recognition [Duda73].
+PCA reduces the sample dimension in a linear way for the best
+representation in lower dimensions keeping the maximum of inertia. The
+best axe for the representation is however not necessary the best axe
+for the discrimination. After PCA, features are selected according to
+the percentage of initial inertia which is covered by the different
+axes and the number of features is determined according to the
+percentage of initial inertia to keep for the classification process.
+This selection method has been applied on the phoneme_CR database.
+When quasi-linear correlations exists between some initial features,
+these redundant dimensions are removed by PCA and this preprocessing is
+then recommended.  In this case, before a PCA, the determinant of the
+data covariance matrix is near zero; this database is thus badly
+conditioned for all process which use this information (the quadratic
+classifier for example).
+
+The following files are available for the phoneme database:
+  - ``phoneme_PCA.dat.Z'', the projection of the ``phoneme_CR'' database on its
+        principal components (sorted in a decreasing order of the related
+        inertia percentage; so, if you desire to work on the database projected on
+        its x first principal components you only have to keep the x first attributes
+        of the phoneme_PCA.dat database and the class labels (last attribute)).
+
+  - ``phoneme_corr_circle.ps'', a graphical representation of the
+        correlation between the initial attributes and the two first
+        principal components,
+
+  - ``phoneme_proj_PCA.ps'', a graphical representation of the
+        projection of the initial database on the two first principal
+        components,
+
+
+Table here below provides the inertia percentages associated to the
+eigenvalues corresponding to the principal component axis sorted in
+the decreasing order of their associated inertia percentage.
+
+    Eigen   Value   Inertia    Cumulated
+    value          percentage   inertia
+
+      1    1.46471  29.30       29.30
+      2    1.10934  22.19       51.49
+      3    1.02830  20.57       72.06
+      4    0.94158  18.83       90.89
+      5    0.45516   9.10      100.00
+
+   It is thus clear that any dimensionality reduction based on PCA would
+   lead to an important loss of pertinent data
+
+
+[Duda73]
+Duda, R.O. and Hart, P.E.,
+Pattern Classification and Scene Analysis,
+John Wiley & Sons, 1973.
+
+

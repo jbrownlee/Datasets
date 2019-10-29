@@ -29,6 +29,7 @@ This section provides a summary of the datasets in this repository.
 * Adult (adult-all.csv)
 * Mammography (mammography.csv)
 * Oil Spill (oil-spill.csv)
+* Phoneme (phoneme.csv)
 
 ## Multiclass Classification Datasets
 
