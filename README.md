@@ -26,6 +26,7 @@ This section provides a summary of the datasets in this repository.
 * Haberman's Breast Cancer Survival Data (haberman.csv)
 * German Credit (german.csv)
 * Credit Card Fraud (creditcardfraud.zip)
+* Adult (adult-all.csv)
 
 ## Multiclass Classification Datasets
 
