@@ -18,12 +18,12 @@ This section provides a summary of the datasets in this repository.
 
 * Breast Cancer (Wisconsin) (breast-cancer-wisconsin.csv)
 * Breast Cancer (Yugoslavia) (breast-cancer.csv)
+* Breast Cancer (Haberman's) (haberman.csv)
 * Bank Note Authentication (banknote_authentication.csv)
 * Horse Colic (horse-colic.csv)
 * Ionosphere (ionosphere.csv)
 * Pima Indians Diabetes (pima-indians-diabetes.csv)
 * Sonar Returns (sonar.csv)
-* Haberman's Breast Cancer Survival Data (haberman.csv)
 * German Credit (german.csv)
 * Credit Card Fraud (creditcardfraud.zip)
 * Adult (adult-all.csv)
