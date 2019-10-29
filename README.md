@@ -27,6 +27,7 @@ This section provides a summary of the datasets in this repository.
 * German Credit (german.csv)
 * Credit Card Fraud (creditcardfraud.zip)
 * Adult (adult-all.csv)
+* Mammography (mammography.csv)
 
 ## Multiclass Classification Datasets
 
