@@ -25,7 +25,7 @@ This section provides a summary of the datasets in this repository.
 * Pima Indians Diabetes (pima-indians-diabetes.csv)
 * Sonar Returns (sonar.csv)
 * German Credit (german.csv)
-* Credit Card Fraud (creditcardfraud.zip)
+* Credit Card Fraud (creditcard.csv.zip)
 * Adult (adult-all.csv)
 * Mammography (mammography.csv)
 * Oil Spill (oil-spill.csv)
