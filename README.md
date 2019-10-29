@@ -28,6 +28,7 @@ This section provides a summary of the datasets in this repository.
 * Credit Card Fraud (creditcardfraud.zip)
 * Adult (adult-all.csv)
 * Mammography (mammography.csv)
+* Oil Spill (oil-spill.csv)
 
 ## Multiclass Classification Datasets
 

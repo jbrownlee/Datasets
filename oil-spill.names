@@ -1,0 +1,8 @@
+Oil spill dataset
+
+By Robert Holte.
+
+Kubat, M., Holte, R., & Matwin, S. (1998). Machine Learning for the Detection of Oil Spills in Satellite Radar Images. Machine Learning, 30, 195–215.
+
+- 41 minority (oil slick)
+- 896 majority (no oil slick)
