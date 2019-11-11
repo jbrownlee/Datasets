@@ -26,7 +26,7 @@ This section provides a summary of the datasets in this repository.
 * Sonar Returns (sonar.csv)
 * German Credit (german.csv)
 * Credit Card Fraud (creditcard.csv.zip)
-* Adult (adult-all.csv)
+* Adult Income (adult-all.csv)
 * Mammography (mammography.csv)
 * Oil Spill (oil-spill.csv)
 * Phoneme (phoneme.csv)
