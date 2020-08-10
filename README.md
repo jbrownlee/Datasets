@@ -66,11 +66,11 @@ This section provides a summary of the datasets in this repository.
 
 ## Multivariate Time Series Datasets
 
-* Hourly Pollution Levels in Beijing
-* Minutely Individual Household Electric Power Consumption
-* Human Activity Recognition Using Smartphones
-* Indoor Movement Prediction
-* Yearly Longley Economic Employment
+* Hourly Pollution Levels in Beijing (pollution.csv)
+* Minutely Individual Household Electric Power Consumption (household_power_consumption.zip)
+* Human Activity Recognition Using Smartphones (HAR_Smartphones.zip)
+* Indoor Movement Prediction (IndoorMovement.zip)
+* Yearly Longley Economic Employment (longley.csv)
 
 ## Natural Language Processing
 
