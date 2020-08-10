@@ -71,3 +71,8 @@ This section provides a summary of the datasets in this repository.
 * Human Activity Recognition Using Smartphones
 * Indoor Movement Prediction
 * Yearly Longley Economic Employment
+
+## Natural Language Processing
+
+* Flickr 8k Photo Caption Dataset (Flickr8k_Dataset.zip, Flickr8k_text.zip)
+* Movie Review Polarity (review_polarity.tar.gz)
