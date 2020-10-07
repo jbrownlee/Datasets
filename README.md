@@ -77,3 +77,4 @@ This section provides a summary of the datasets in this repository.
 * Flickr 8k Photo Caption Dataset (Flickr8k_Dataset.zip, Flickr8k_text.zip)
 * Movie Review Polarity (review_polarity.tar.gz)
 * German to English Translation (deu-eng.txt)
+* The Republic, by Plato (republic.txt)
