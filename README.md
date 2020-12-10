@@ -78,3 +78,11 @@ This section provides a summary of the datasets in this repository.
 * Movie Review Polarity (review_polarity.tar.gz)
 * German to English Translation (deu-eng.txt)
 * The Republic, by Plato (republic.txt)
+
+## ARFF Datasets
+
+* Weka UCI Datasets (weka-datasets.zip)
+* Weka Numeric Datasets (weka-datasets-numeric.zip)
+
+
+
